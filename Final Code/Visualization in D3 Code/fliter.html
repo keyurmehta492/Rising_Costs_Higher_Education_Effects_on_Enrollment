@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<meta charset='utf-8'>
+<html>
+  <head>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <style type="text/css">
+	body {
+		  font: 10px sans-serif;
+		}
+
+		.xAxis path, .yAxis path,
+		.xAxis line, .yAxis line {
+		  fill: none;
+		  stroke: #000;
+		  shape-rendering: crispEdges;
+		}
+
+		/*.x.axis path {
+		  display: none;
+		}*/
+
+		.line {
+		  fill: none;
+		  stroke: steelblue;
+		  stroke-width: 1.5px;
+		}
+    </style>
+  </head>
+  <body>
+  	<select id="variableSelect">
+  		<option value="1">All Institute</option>
+  		<option value="2">Public Institute</option>
+  		<option value="3">Private Institute</option>
+  		<option value="4">Private Non profit</option>
+  		<option value="5">Private for profit</option></select>
+  	<script type='text/javascript' src='script.js'></script>
+      </body>
+</html>

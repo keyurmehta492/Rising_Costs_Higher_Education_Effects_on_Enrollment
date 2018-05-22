@@ -1,0 +1,16 @@
+[
+{"type":"header","version":"4.7.4","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"informatics"},
+{"type":"table","name":"institute_type","database":"informatics","data":
+[
+{"type":"1","description":"All Institute"},
+{"type":"2","description":"Public Institute"},
+{"type":"3","description":"Private Institute"},
+{"type":"4","description":"Private Non profit"},
+{"type":"5","description":"Private for profit"},
+{"type":"6","description":"All level"},
+{"type":"7","description":"2 year Institute"},
+{"type":"8","description":"4 year institute"}
+]
+}
+]
